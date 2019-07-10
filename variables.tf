@@ -1,3 +1,8 @@
+##Make sure you update the below values before proceeding:
+## $DD_API_KEY
+## $DD_APP_KEY
+## $AWS_ACCOUNT_ID
+
 ##Datadog Variables
 variable "datadog_api_key" {
   default = "$DD_API_KEY"
