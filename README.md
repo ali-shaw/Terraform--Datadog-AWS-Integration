@@ -6,13 +6,15 @@ This Project was written by Ali Shaw & Rich Upshall to help customers adopting D
 ## PREREQUISITES:
 ### AWS CLI
 
-The AWS Command Line Interface (CLI) is a unified tool that allows you to control multiple AWS services from the command line and automate them through scripts such as Terraform in this case. https://aws.amazon.com/cli/
-First you'll need to install based on your platform: https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+First you'll need to [install based on your platform:](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 Once you've installed the AWS CLI, run `aws configure`, you'll then be prompted to provide credentials (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
-`AWS Access Key ID`
-`AWS Secret Access Key`
-`Default region name`
-`Default output format`
+```
+AWS Access Key ID
+AWS Secret Access Key
+Default region name
+Default output format
+```
+
 ### Terraform
 
 Terraform is an open source tool that codifies APIs into declarative configuration files to predictably create, change, and improve infrastructure.
