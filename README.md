@@ -18,8 +18,8 @@ Default output format:
 First, [download the Terraform package for your platform](https://www.terraform.io/downloads.html)  
 Next, open the directory you downloaded the package to in your terminal of choice and run:
 ```
-unzip terraform.XXX  
-mv terraform.XXX /usr/local/bin  
+unzip terraform_VERSION_PLATFORM.zip  
+mv terraform_VERSION_PLATFORM /usr/local/bin  
 ```  
 That's it! Check it using `terraform -v`
 
