@@ -38,7 +38,7 @@ If not, head over to signup to an account on either our [US hosted instance](htt
 ![terraform_init](/images/terraform_init.png)
 
 4) Run `terraform plan` to check the setup. Take a moment to review the plan, you will notice the `+` sign indicating the resources that will be created. Your plan result should have "4 to add" as the Terraform script is doing the following:  
-![terraform_plan](/images/terraform_plan.png)
+![terraform_plan](/images/terraform_plan.png)  
 _Creating the AWS Policy named DatadogAWSIntegrationPolicy_     
 _Creating the AWS Role named DatadogAWSIntegrationRole_  
 _Attaching the AWS Policy to the AWS Role_  
