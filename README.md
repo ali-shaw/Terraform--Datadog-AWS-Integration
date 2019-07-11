@@ -6,13 +6,13 @@ This Project was written by Ali Shaw & Rich Upshall to help customers adopting D
 ## PREREQUISITES:
 ### AWS CLI
 
-First you'll need to [install based on your platform:](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
-Once you've installed the AWS CLI, run `aws configure`, you'll then be prompted to provide credentials (https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
+First you'll need to [install based on your platform:](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html) 
+Once you've installed the AWS CLI, run `aws configure`, you'll then be prompted to [provide credentials](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html):
 ```
-AWS Access Key ID
-AWS Secret Access Key
-Default region name
-Default output format
+AWS Access Key ID:
+AWS Secret Access Key:
+Default region name:
+Default output format:
 ```
 
 ### Terraform
