@@ -48,3 +48,19 @@ Note: Terraform uses _explicit dependencies_ to automatically know the order to 
 
 5) Run `terraform apply` followed by `yes` to make the magic happen!
 ![terraform_apply](/images/terraform_apply.png)
+
+## Validation:  
+You can now check you have successfully integrated your Datadog and AWS accounts
+
+### AWS:  
+Naviate to the [AWS IAM Policies](https://console.aws.amazon.com/iam/home#/policies) page and confirm that the _DatadogAWSIntegrationPolicy_ was created.
+- Review the Policy Summary JSON was successfully written
+
+Navigate to the [AWS IAM Role](https://console.aws.amazon.com/iam/home#/roles) page and confirm that the _DatadogAWSIntegrationRole_ was created.  
+- Validate that the Policy was attached
+- Validate that the Trust Relationship contains the Datadog AWS Account ID (464622532012) and that the ExternalID Condition was added
+
+### Datadog:
+Navigate to the [Datadog AWS Integration](https://app.datadoghq.com/account/settings#integrations/amazon-web-services) tile to confirm it was successfully installed.
+
+Note: if you are on the EU instance, [click here](https://app.datadoghq.eu/account/settings#integrations/amazon-web-services)
