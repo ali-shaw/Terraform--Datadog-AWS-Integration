@@ -1,5 +1,5 @@
 # Terraform: Integration Datadog & AWS  
-This Project was written by Ali Shaw & [Rich Upshall](https://github.com/richupshall){:target="blank"} to help customers adopting Datadog automate their deployment with AWS using Terraform. This is not an official Datadog project - just 2 guys hacking about on a summer's day (or two).
+This Project was written by Ali Shaw & [Rich Upshall](https://github.com/richupshall) to help customers adopting Datadog automate their deployment with AWS using Terraform. This is not an official Datadog project - just 2 guys hacking about on a summer's day (or two).
 
 ## PREREQUISITES:  
 ### AWS CLI  
