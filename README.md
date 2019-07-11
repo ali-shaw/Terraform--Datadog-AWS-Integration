@@ -35,10 +35,10 @@ If not, head over to signup to an account on either our [US hosted instance](htt
 `$AWS_ACCOUNT_ID`
 
 3) Run `terraform init` to initialise Terraform and download the necessary Providers  
-<img src="/images/terraform_init.png" width="300" height="300" title="terraform_init">
+![terraform_init](/images/terraform_init.png)
 
-4) Run `terraform plan` to check the setup. Take a moment to review the plan, you will notice the `+` sign indicating the resources that will be created. Your plan result should have "4 to add" as the Terraform script is doing the following:
-<img src="/images/terraform_plan.png" width="300" height="" title="terraform_init">  
+4) Run `terraform plan` to check the setup. Take a moment to review the plan, you will notice the `+` sign indicating the resources that will be created. Your plan result should have "4 to add" as the Terraform script is doing the following:  
+![terraform_plan](/images/terraform_plan.png)
 _Creating the AWS Policy named DatadogAWSIntegrationPolicy_     
 _Creating the AWS Role named DatadogAWSIntegrationRole_  
 _Attaching the AWS Policy to the AWS Role_  
@@ -47,4 +47,4 @@ _Creating the Datadog AWS Integration_
 Note: Terraform uses _explicit dependencies_ to automatically know the order to perform the tasks.
 
 5) Run `terraform apply` followed by `yes` to make the magic happen!
-<img src="/images/terraform_apply.png" width="300" height="" title="terraform_init">
+![terraform_apply](/images/terraform_apply.png)
