@@ -1,5 +1,5 @@
 # Terraform: Integration Datadog & AWS  
-This Project was written by Ali Shaw & [Rich Upshall](https://github.com/richupshall) to help customers adopting Datadog automate their deployment with AWS using Terraform. This is not an official Datadog project - just 2 guys hacking about on a summer's day (or two).
+This Project was written by Ali Shaw & [Rich Upshall](https://github.com/richupshall){:target="blank"} to help customers adopting Datadog automate their deployment with AWS using Terraform. This is not an official Datadog project - just 2 guys hacking about on a summer's day (or two).
 
 ## PREREQUISITES:  
 ### AWS CLI  
@@ -49,7 +49,7 @@ Note: Terraform uses _explicit dependencies_ to automatically know the order to 
 5) Run `terraform apply` followed by `yes` to make the magic happen!
 ![terraform_apply](/images/terraform_apply.png)
 
-## Validation:  
+## VALIDATION:  
 You can now check you have successfully integrated your Datadog and AWS accounts
 
 ### AWS:  
