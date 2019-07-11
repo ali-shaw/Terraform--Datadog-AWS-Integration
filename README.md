@@ -29,10 +29,10 @@ If not, head over to signup to an account on either our [US hosted instance](htt
 1) Start by cloning this repository to your local machine:  
 `git clone https://github.com/ali-shaw/Terraform--Datadog-AWS-Integration.git`
 
-2) Edit the _variables.tf_ file using your editor of choice to update the 3 values below:
+2) Edit the _variables.tf_ file using your editor of choice to update the 3 values below:  
 `$DD_API_KEY`  
 `$DD_APP_KEY`  
 `$AWS_ACCOUNT_ID`
 
 3) Run `terraform init` to initialise Terraform and download the necessary Providers  
-![terraform_init](/images/terraform_init.png)
+<img src="/images/terraform_init.png" width="256" height="256" title="terraform_init">
